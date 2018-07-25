@@ -1,25 +1,74 @@
 body {
-	background-color: #E7E8EB;
+	margin: 0;
+	background-color: #e9ebe7;
+	color: #45484d;
+	font-family: Helvetica, sans-serif;
 }
 
-img {
-	border: 10px;
-	display: inline-block;
-	margin: 10px;
-	width: 15%;
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.spots {
+	text-align: center;
+	margin: 50px 0;
+}
+
+.spots button {
+	padding: 10px 70px;
+	background-color: white;
+	border: 1px solid #45484d;
+	color: #45484d;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.spots-images {
+	margin: 20px 0;
+	color: white;
+}
+
+.spots-images .spot {
 	position: relative;
+	display: inline-block;
+	background-size: cover;
+	background-color: #e9ebe7;
+	width: 300px;
+	height: 300px;
+	margin: 15px;
 }
 
-form {
-	text-align: center;
-	padding: 10px;
+.spots-images .spot-title {
+	margin: 0;
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 30px;
 }
 
-.images {
-	text-align: center;
+.san-francisco-1 {
+	background-image: url("../img/san-francisco.jpg");
 }
 
-.text {
-	text-align: center;
-  	color: grey;
+.san-francisco-2 {
+	background-image: url("../img/san-francisco.jpg");
+}
+
+.new-york {
+	background-image: url("../img/new-york.jpg");
+}
+
+.london {
+	background-image: url("../img/london.jpg");
+}
+
+.napa {
+	background-image: url("../img/napa.jpg");
+}
+
+.sonoma {
+	background-image: url("../img/sonoma.jpg");
 }
